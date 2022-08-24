@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="minim">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/minim.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

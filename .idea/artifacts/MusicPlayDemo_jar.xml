@@ -1,0 +1,93 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MusicPlayDemo:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MusicPlayDemo_jar</output-path>
+    <root id="archive" name="MusicPlayDemo.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="MusicPlayDemo" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/mp3spi1.9.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/tritonus_aos.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/konghq/unirest-java/3.11.12/unirest-java-3.11.12.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.11/commons-codec-1.11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jl1.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore-nio/4.4.13/httpcore-nio-4.4.13.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/tritonus_share.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/core.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/javafx-sdk-16/lib/javafx-swt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/javafx-sdk-16/lib/javafx.base.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/javafx-sdk-16/lib/javafx.controls.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/javafx-sdk-16/lib/javafx.fxml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/javafx-sdk-16/lib/javafx.graphics.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/javafx-sdk-16/lib/javafx.media.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/javafx-sdk-16/lib/javafx.swing.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/javafx-sdk-16/lib/javafx.web.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.2/commons-logging-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/sqlite-jdbc-3.36.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpasyncclient/4.1.4/httpasyncclient-4.1.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jsminim.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/minim.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar" path-in-jar="/" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/api-ms-win-core-console-l1-1-0.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/api-ms-win-core-console-l1-2-0.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/api-ms-win-core-datetime-l1-1-0.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/api-ms-win-core-debug-l1-1-0.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/api-ms-win-core-errorhandling-l1-1-0.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/api-ms-win-core-file-l1-1-0.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/api-ms-win-core-file-l1-2-0.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/api-ms-win-core-file-l2-1-0.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/api-ms-win-core-handle-l1-1-0.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/api-ms-win-core-heap-l1-1-0.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/api-ms-win-core-interlocked-l1-1-0.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/api-ms-win-core-libraryloader-l1-1-0.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/api-ms-win-core-localization-l1-2-0.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/api-ms-win-core-memory-l1-1-0.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/api-ms-win-core-namedpipe-l1-1-0.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/api-ms-win-core-processenvironment-l1-1-0.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/api-ms-win-core-processthreads-l1-1-0.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/api-ms-win-core-processthreads-l1-1-1.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/api-ms-win-core-profile-l1-1-0.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/api-ms-win-core-rtlsupport-l1-1-0.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/api-ms-win-core-string-l1-1-0.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/api-ms-win-core-synch-l1-1-0.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/api-ms-win-core-synch-l1-2-0.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/api-ms-win-core-sysinfo-l1-1-0.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/api-ms-win-core-timezone-l1-1-0.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/api-ms-win-core-util-l1-1-0.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/api-ms-win-crt-conio-l1-1-0.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/api-ms-win-crt-convert-l1-1-0.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/api-ms-win-crt-environment-l1-1-0.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/api-ms-win-crt-filesystem-l1-1-0.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/api-ms-win-crt-heap-l1-1-0.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/api-ms-win-crt-locale-l1-1-0.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/api-ms-win-crt-math-l1-1-0.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/api-ms-win-crt-multibyte-l1-1-0.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/api-ms-win-crt-private-l1-1-0.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/api-ms-win-crt-process-l1-1-0.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/api-ms-win-crt-runtime-l1-1-0.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/api-ms-win-crt-stdio-l1-1-0.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/api-ms-win-crt-string-l1-1-0.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/api-ms-win-crt-time-l1-1-0.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/api-ms-win-crt-utility-l1-1-0.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/decora_sse.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/fxplugins.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/glass.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/glib-lite.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/gstreamer-lite.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/javafx_font.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/javafx_iio.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/jfxmedia.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/jfxwebkit.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/msvcp140.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/prism_common.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/prism_d3d.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/prism_sw.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/ucrtbase.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/vcruntime140.dll" />
+      <element id="file-copy" path="C:/javafx-sdk-16/bin/vcruntime140_1.dll" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.*?>
+<AnchorPane fx:id="root" prefHeight="221.0" prefWidth="656.0"
+            style="-fx-background-radius: 80; -fx-border-radius: 80; -fx-background-color: transparent;"
+            xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.musicplaydemo.MainView">
+    <AnchorPane fx:id="menuPane" layoutY="64.0" maxHeight="120.0" maxWidth="400.0" onMouseExited="#mouseExitMenu"
+                onMouseMoved="#mouseMoveMenu" prefHeight="120.0" prefWidth="400.0"
+                style="-fx-background-radius: 80 20 20 80; -fx-border-radius: 80 20 20 20;">
+        <ImageView fx:id="imageView" fitHeight="120.0" fitWidth="400.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@bg.jpeg"/>
+        </ImageView>
+        <Label fx:id="label" alignment="CENTER" layoutX="51.0" layoutY="3.0" opacity="0.6" prefHeight="22.0"
+               prefWidth="261.0" text="Tên bài hát">
+            <font>
+                <Font name="Comic Sans MS" size="15.0"/>
+            </font>
+        </Label>
+        <ImageView fitHeight="41.0" fitWidth="29.0" layoutY="46.0" onMouseClicked="#thoat" opacity="0.5"
+                   pickOnBounds="true" preserveRatio="true" fx:id="xIcon">
+            <Image url="@x.png"/>
+        </ImageView>
+        <ImageView fx:id="truocIcon" fitHeight="41.0" fitWidth="29.0" layoutX="22.0" onMouseClicked="#truocClick"
+                   opacity="0.5" pickOnBounds="true" preserveRatio="true">
+            <Image url="@truoc.png"/>
+        </ImageView>
+        <ImageView fx:id="sauIcon" fitHeight="28.0" fitWidth="29.0" layoutX="310.0" layoutY="1.0"
+                   onMouseClicked="#sauClick" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+            <Image url="@sau.png"/>
+        </ImageView>
+        <Label fx:id="timeCur" alignment="CENTER" layoutX="128.0" layoutY="25.0" opacity="0.6" prefHeight="22.0"
+               prefWidth="54.0" text="00.00">
+            <font>
+                <Font name="Comic Sans MS" size="15.0"/>
+            </font>
+        </Label>
+        <Label fx:id="timeFull" alignment="CENTER" layoutX="173.0" layoutY="25.0" opacity="0.6" prefHeight="22.0"
+               prefWidth="54.0" text="/00.00">
+            <font>
+                <Font name="Comic Sans MS" size="15.0"/>
+            </font>
+        </Label>
+        <TextField fx:id="getLinkLabel" focusTraversable="false" layoutX="33.0" layoutY="60.0" prefHeight="31.0"
+                   prefWidth="244.0" promptText="playlist Youtube or video Youtube"
+                   style="-fx-background-radius: 20; -fx-border-radius: 20;">
+            <font>
+                <Font name="Comic Sans MS" size="14.0"/>
+            </font>
+        </TextField>
+        <Button alignment="CENTER" layoutX="277.0" layoutY="59.0" mnemonicParsing="false" onAction="#getLink"
+                style="-fx-background-radius: 10; -fx-border-radius: 10; -fx-background-color: #90eeed;" text="Get">
+            <font>
+                <Font name="Comic Sans MS" size="14.0"/>
+            </font>
+        </Button>
+        <Label fx:id="updateLabel" alignment="CENTER" layoutX="64.0" layoutY="95.0" opacity="0.6" prefHeight="22.0"
+               prefWidth="261.0" textFill="#da0000">
+            <font>
+                <Font name="Comic Sans MS" size="14.0"/>
+            </font>
+        </Label>
+    </AnchorPane>
+    <AnchorPane fx:id="mainPane" layoutX="340.0" layoutY="64.0" prefHeight="120.0" prefWidth="120.0">
+        <Circle fx:id="circle" centerX="60.0" centerY="60.0" fill="DODGERBLUE" onMouseDragged="#mouseDragged"
+                onMouseExited="#mouseExitMain" onMouseMoved="#mouseMoveMain" radius="60.0" stroke="BLACK"
+                strokeType="INSIDE" style="-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);"/>
+        <ImageView fx:id="pauseIcon" fitHeight="58.0" fitWidth="44.0" layoutX="38.0" layoutY="40.0"
+                   onMouseClicked="#pMusic" onMouseDragged="#mouseDragged" onMouseMoved="#mouseMoveMain"
+                   opacity="0.5" pickOnBounds="true" preserveRatio="true">
+            <Image url="@pause.png"/>
+        </ImageView>
+        <ImageView fx:id="playIcon" fitHeight="58.0" fitWidth="44.0" layoutX="38.0" layoutY="39.0"
+                   onMouseClicked="#pMusic" onMouseDragged="#mouseDragged" onMouseMoved="#mouseMoveMain"
+                   opacity="0.5" pickOnBounds="true" preserveRatio="true">
+            <Image url="@play.png"/>
+        </ImageView>
+    </AnchorPane>
+    <AnchorPane fx:id="getPane" layoutX="69.0" layoutY="4.0" opacity="0.8" prefHeight="60.0" prefWidth="283.0"
+                style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-background-color: #fd8a4f;">
+        <Label alignment="CENTER" layoutX="7.0" layoutY="4.0" opacity="0.9" prefHeight="21.0" prefWidth="92.0"
+               text="Phát hiện link">
+            <font>
+                <Font name="Comic Sans MS" size="14.0"/>
+            </font>
+        </Label>
+        <Label fx:id="linkPhatHien" alignment="CENTER" layoutX="101.0" layoutY="1.0" opacity="0.9" prefHeight="60.0"
+               prefWidth="158.0" wrapText="true">
+            <font>
+                <Font name="Comic Sans MS" size="12.0"/>
+            </font>
+        </Label>
+        <Button alignment="CENTER" layoutX="13.0" layoutY="34.0" mnemonicParsing="false" onAction="#taiXuong"
+                opacity="0.9"
+                style="-fx-background-radius: 10; -fx-border-radius: 10; -fx-background-color: #90eeed;"
+                text="Tải xuống">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+        <ImageView fitHeight="21.0" fitWidth="17.0" layoutX="-1.0" layoutY="24.0" onMouseClicked="#anDi"
+                   opacity="0.5" pickOnBounds="true" preserveRatio="true">
+            <Image url="@x.png"/>
+        </ImageView>
+    </AnchorPane>
+</AnchorPane>
